@@ -1,0 +1,411 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Deena D'souza | Tech Profile</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:"Poppins",sans-serif;
+background:black;
+color:white;
+text-align:center;
+overflow-x:hidden;
+}
+
+/* ===== CIRCUIT BACKGROUND ===== */
+
+canvas{
+position:fixed;
+top:0;
+left:0;
+z-index:-1;
+}
+
+/* ===== HEADER ===== */
+
+header{
+padding-top:70px;
+}
+
+h1{
+font-family:"Orbitron";
+font-size:44px;
+letter-spacing:3px;
+}
+
+.typing{
+color:#aaa;
+margin-top:8px;
+height:22px;
+}
+
+/* ===== PROFILE ===== */
+
+.profile{
+width:140px;
+height:140px;
+border-radius:50%;
+border:2px solid white;
+margin-top:30px;
+object-fit:cover;
+transition:.4s;
+}
+
+.profile:hover{
+transform:scale(1.08);
+}
+
+/* ===== INTRO ===== */
+
+.intro{
+max-width:750px;
+margin:30px auto;
+color:#bbb;
+line-height:1.7;
+padding:0 20px;
+}
+
+/* ===== SECTION TITLE ===== */
+
+.section-title{
+font-family:"Orbitron";
+margin-top:45px;
+margin-bottom:20px;
+letter-spacing:2px;
+}
+
+/* ===== SKILLS ===== */
+
+.skills{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:12px;
+}
+
+.skill{
+background:rgba(255,255,255,0.05);
+border:1px solid rgba(255,255,255,0.2);
+padding:10px 18px;
+border-radius:20px;
+font-size:14px;
+backdrop-filter:blur(5px);
+}
+
+/* ===== RESUME BUTTON ===== */
+
+.resume-btn{
+display:inline-block;
+margin:35px 0;
+padding:12px 28px;
+border:1px solid white;
+border-radius:30px;
+color:white;
+text-decoration:none;
+transition:.3s;
+}
+
+.resume-btn:hover{
+background:white;
+color:black;
+}
+
+/* ===== SOCIAL GRID ===== */
+
+.grid{
+display:grid;
+grid-template-columns:repeat(2,180px);
+gap:18px;
+justify-content:center;
+margin-bottom:50px;
+}
+
+.card{
+background:rgba(255,255,255,0.05);
+border:1px solid rgba(255,255,255,0.2);
+border-radius:12px;
+padding:20px;
+text-decoration:none;
+color:white;
+transition:.35s;
+backdrop-filter:blur(6px);
+}
+
+.card i{
+font-size:26px;
+margin-bottom:8px;
+}
+
+.card:hover{
+background:white;
+color:black;
+transform:translateY(-6px);
+}
+
+/* ===== SERVICES ===== */
+
+.services{
+max-width:650px;
+margin:auto;
+color:#bbb;
+line-height:1.8;
+padding:0 20px 70px;
+}
+
+.services ul{
+list-style:none;
+margin-top:15px;
+}
+
+.services li{
+margin:7px 0;
+}
+
+/* ===== FOOTER ===== */
+
+footer{
+border-top:1px solid #222;
+padding:25px;
+color:#777;
+font-size:14px;
+}
+
+footer span{
+font-family:"Orbitron";
+letter-spacing:2px;
+display:block;
+margin-top:5px;
+}
+
+</style>
+</head>
+
+<body>
+
+<canvas id="bg"></canvas>
+
+<header>
+
+<h1>Welcome to My Profile</h1>
+
+<div class="typing" id="typing"></div>
+
+<img src="deena.jpeg" class="profile">
+
+</header>
+
+<div class="intro">
+
+BCA student with a strong interest in Data Science, AI, and Web Development.  
+Skilled in building basic websites and coding projects, and passionate about continuous learning and problem solving.
+
+Currently **learning Python, AI/ML, and Data Science** while exploring the world of technology and development.
+
+Open to project collaborations and opportunities to grow as an IT professional.
+
+</div>
+
+<h2 class="section-title">Skills (Learning)</h2>
+
+<div class="skills">
+
+<div class="skill">Python</div>
+<div class="skill">HTML / CSS</div>
+<div class="skill">AI & Machine Learning</div>
+<div class="skill">Data Science</div>
+<div class="skill">Web Development</div>
+<div class="skill">Problem Solving</div>
+
+</div>
+
+<a class="resume-btn" href="resume.pdf" download>
+<i class="fa fa-download"></i> Download Resume
+</a>
+
+<h2 class="section-title">Connect With Me</h2>
+
+<div class="grid">
+
+<a class="card" href="https://www.linkedin.com/in/deenadsouza200503/?skipRedirect=true" target="_blank">
+<i class="fab fa-linkedin"></i>
+<div>LinkedIn</div>
+</a>
+
+<a class="card" href="https://github.com/Deenadsouza-1803" target="_blank">
+<i class="fab fa-github"></i>
+<div>GitHub</div>
+</a>
+
+<a class="card" href="https://www.instagram.com/deenadsouza_18?igsh=MTlibDBpaDc1NnYyeA==" target="_blank">
+<i class="fab fa-instagram"></i>
+<div>Instagram</div>
+</a>
+
+<a class="card" href="https://pin.it/2g49hcZ69" target="_blank">
+<i class="fab fa-pinterest"></i>
+<div>Pinterest</div>
+</a>
+
+<a class="card" href="mailto:deenadsouza1804@gmail.com">
+<i class="fas fa-envelope"></i>
+<div>Email</div>
+</a>
+
+<a class="card" href="https://youtube.com" target="_blank">
+<i class="fab fa-youtube"></i>
+<div>YouTube</div>
+</a>
+
+</div>
+
+<h2 class="section-title">Project Help Services</h2>
+
+<div class="services">
+
+If you are a student and need help in coding or mini projects, feel free to contact me. I will try my best to guide you.
+
+<ul>
+<li>-> Help in basic coding projects</li>
+<li>-> Help in HTML / CSS websites</li>
+<li>-> Help in Python programs</li>
+<li>-> Mini college project guidance</li>
+<li>-> Debugging coding errors</li>
+</ul>
+
+</div>
+
+<footer>
+Thank You For Visiting
+<span>Deena D'souza</span>
+</footer>
+
+<script>
+
+/* ===== typing animation ===== */
+
+const text="BCA Student | Python & AIML Learner";
+let i=0;
+
+function typing(){
+if(i<text.length){
+document.getElementById("typing").innerHTML+=text.charAt(i);
+i++;
+setTimeout(typing,60);
+}
+}
+
+typing();
+
+/* ===== glowing circuit background ===== */
+
+const canvas=document.getElementById("bg");
+const ctx=canvas.getContext("2d");
+
+canvas.width=window.innerWidth;
+canvas.height=window.innerHeight;
+
+let particles=[];
+
+class Particle{
+
+constructor(){
+this.x=Math.random()*canvas.width;
+this.y=Math.random()*canvas.height;
+this.vx=(Math.random()-0.5)*0.6;
+this.vy=(Math.random()-0.5)*0.6;
+}
+
+move(){
+
+this.x+=this.vx;
+this.y+=this.vy;
+
+if(this.x<0||this.x>canvas.width) this.vx*=-1;
+if(this.y<0||this.y>canvas.height) this.vy*=-1;
+
+}
+
+draw(){
+
+ctx.fillStyle="white";
+ctx.beginPath();
+ctx.arc(this.x,this.y,2,0,Math.PI*2);
+ctx.fill();
+
+}
+
+}
+
+for(let i=0;i<120;i++){
+particles.push(new Particle());
+}
+
+function connect(){
+
+for(let a=0;a<particles.length;a++){
+
+for(let b=a;b<particles.length;b++){
+
+let dx=particles[a].x-particles[b].x;
+let dy=particles[a].y-particles[b].y;
+let dist=dx*dx+dy*dy;
+
+if(dist<13000){
+
+ctx.strokeStyle="rgba(255,255,255,0.08)";
+ctx.lineWidth=1;
+
+ctx.beginPath();
+ctx.moveTo(particles[a].x,particles[a].y);
+ctx.lineTo(particles[b].x,particles[b].y);
+ctx.stroke();
+
+}
+
+}
+
+}
+
+}
+
+function animate(){
+
+ctx.clearRect(0,0,canvas.width,canvas.height);
+
+particles.forEach(p=>{
+p.move();
+p.draw();
+});
+
+connect();
+
+requestAnimationFrame(animate);
+
+}
+
+animate();
+
+window.addEventListener("resize",()=>{
+canvas.width=window.innerWidth;
+canvas.height=window.innerHeight;
+});
+
+</script>
+
+</body>
+</html>
